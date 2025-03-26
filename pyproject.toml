@@ -1,0 +1,15 @@
+[project]
+name = "CrpgEngineCore"
+version = "0.1.0"
+description = "核心组件"
+authors = [
+    {name = "LuminWolf", email = "2241381566@qq.com"}
+]
+dependencies = [
+    "toml",
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
